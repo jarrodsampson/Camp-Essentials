@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:2:1-72:12
 	package
 		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/Andro
 	android:name
 		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:6:22-65
 application
-ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:8:5-50:19
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:8:5-70:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
@@ -168,59 +168,65 @@ ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/Andro
 	android:name
 		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:39:13-59
 activity#hidetut.fix.j2gliteware.camper1.dashboard.TemperatureListActivity
-ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:41:9-103
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:41:9-43:48
 	android:label
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:41:69-101
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:43:13-45
 	android:name
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:41:19-68
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:42:13-62
 activity#hidetut.fix.j2gliteware.camper1.dashboard.LightingListActivity
-ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:42:9-97
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:44:9-46:45
 	android:label
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:42:66-95
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:46:13-42
 	android:name
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:42:19-65
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:45:13-59
 activity#hidetut.fix.j2gliteware.camper1.dashboard.SoilListActivity
-ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:43:9-89
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:47:9-49:41
 	android:label
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:43:62-87
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:49:13-38
 	android:name
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:43:19-61
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:48:13-55
 activity#hidetut.fix.j2gliteware.camper1.dashboard.GasListActivity
-ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:44:9-87
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:50:9-52:40
 	android:label
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:44:61-85
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:44:19-60
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:51:13-54
 activity#hidetut.fix.j2gliteware.camper1.dashboard.SoundListActivity
-ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:45:9-91
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:53:9-55:42
 	android:label
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:45:63-89
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:55:13-39
 	android:name
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:45:19-62
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:54:13-56
 activity#hidetut.fix.j2gliteware.camper1.dashboard.TimeListActivity
-ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:46:9-89
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:56:9-58:41
 	android:label
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:46:62-87
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:58:13-38
 	android:name
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:46:19-61
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:57:13-55
 activity#hidetut.fix.j2gliteware.camper1.dashboard.WaterListActivity
-ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:47:9-91
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:59:9-61:42
 	android:label
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:47:63-89
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:61:13-39
 	android:name
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:47:19-62
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:60:13-56
 activity#hidetut.fix.j2gliteware.camper1.dashboard.EnergyListActivity
-ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:48:9-93
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:62:9-64:43
 	android:label
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:48:64-91
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:64:13-40
 	android:name
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:48:19-63
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:63:13-57
 activity#hidetut.fix.j2gliteware.camper1.dashboard.CoolingListActivity
-ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:49:9-105
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:65:9-67:44
 	android:label
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:49:65-93
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:67:13-41
 	android:name
-		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:49:19-64
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:66:13-58
+activity#hidetut.fix.j2gliteware.camper1.dashboard.details.ItemDetailActivity
+ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:68:9-69:61
+	android:theme
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml:68:19-71
 uses-sdk
 INJECTED from /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78

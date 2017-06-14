@@ -24,6 +24,14 @@
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_fade_in.xml"
     },
     {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/anim/up_from_bottom.xml",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/anim/up_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/anim/down_from_top.xml",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/anim/down_from_top.xml"
+    },
+    {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_out.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim/design_bottom_sheet_slide_out.xml"
     },

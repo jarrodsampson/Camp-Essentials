@@ -112,6 +112,10 @@
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/layout/activity_help.xml"
     },
     {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/layout/activity_cooling_item_detail.xml",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/layout/activity_cooling_item_detail.xml"
+    },
+    {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
@@ -240,6 +244,10 @@
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/layout/custom_list_item.xml",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/layout/custom_list_item.xml"
+    },
+    {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_activity_chooser_view.xml"
     },
@@ -278,6 +286,10 @@
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/layout/design_navigation_item_header.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/layout/content_cooling_detail.xml",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/layout/content_cooling_detail.xml"
     },
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/layout/activity_control_panel.xml",

@@ -75,6 +75,9 @@
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.CoolingListActivity"
             android:label="Cooling List" />
+        <activity
+            android:name="hidetut.fix.j2gliteware.camper1.dashboard.details.ItemDetailActivity"
+            android:theme="@style/AppThemeNoBar" />
     </application>
 
 </manifest>

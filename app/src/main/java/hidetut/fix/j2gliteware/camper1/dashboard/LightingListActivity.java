@@ -2,11 +2,20 @@ package hidetut.fix.j2gliteware.camper1.dashboard;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import hidetut.fix.j2gliteware.camper1.R;
+import hidetut.fix.j2gliteware.camper1.adapters.ListRecyclerAdapter;
 
 public class LightingListActivity extends AppCompatActivity {
+
+    String[] types = new String[] {
+            "Strip Lights", "Piranhas" };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +23,20 @@ public class LightingListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lighting_list);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        //recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
+        ListRecyclerAdapter recyclerAdapter = new ListRecyclerAdapter(this, createItemList());
+        recyclerView.setAdapter(recyclerAdapter);
+    }
+
+    private List<String> createItemList() {
+        ArrayList<String> list = new ArrayList<>();
+        for(int i = 0; i < types.length; i++) {
+            list.add(types[i]);
+        }
+        return list;
     }
 
     @Override
