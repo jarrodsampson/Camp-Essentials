@@ -9,6 +9,11 @@ An Arduino Based Bluetooth Connector for Android Built with Camping In Mind
 ![Image](https://github.com/planlodge/Camp-Essentials/blob/master/screen2.png?raw=true)
 
 
+## Updates and News
+
+### Version 1.1 Updates
+- Backgrounds and Images Added
+- Bluetooth Check bug fix
 
 ## License
 
