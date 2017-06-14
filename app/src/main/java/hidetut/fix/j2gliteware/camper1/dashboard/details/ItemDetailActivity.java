@@ -17,7 +17,7 @@ public class ItemDetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cooling_item_detail);
+        setContentView(R.layout.activity_item_detail);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);

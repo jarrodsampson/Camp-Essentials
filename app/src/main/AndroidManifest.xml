@@ -4,10 +4,11 @@
 
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/tent"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -31,40 +32,52 @@
             android:theme="@style/AppThemeNoBar" />
         <activity
             android:name=".dashboard.ControlPanel"
-            android:label="Dashboard" />
+            android:label="Dashboard"
+            android:theme="@style/AppThemeNoBar"
+            />
         <activity
             android:name=".About"
-            android:label="About The Developer" />
+            android:label="About The Developer"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name=".bluetooth.DeviceSearchActivity"
             android:label="Local Devices" />
         <activity
             android:name=".dashboard.TemperatureListActivity"
-            android:label="Temperature List" />
+            android:label="Temperature List"
+            android:theme="@style/AppThemeNoBar"/>
         <activity
             android:name=".dashboard.LightingListActivity"
-            android:label="Lighting List" />
+            android:label="Lighting List"
+            android:theme="@style/AppThemeNoBar"/>
         <activity
             android:name=".dashboard.SoilListActivity"
-            android:label="Soil List" />
+            android:label="Soil List"
+            android:theme="@style/AppThemeNoBar"/>
         <activity
             android:name=".dashboard.GasListActivity"
-            android:label="Gas List" />
+            android:label="Gas List"
+            android:theme="@style/AppThemeNoBar"/>
         <activity
             android:name=".dashboard.SoundListActivity"
-            android:label="Sound List" />
+            android:label="Sound List"
+            android:theme="@style/AppThemeNoBar"/>
         <activity
             android:name=".dashboard.TimeListActivity"
-            android:label="Time List" />
+            android:label="Time List"
+            android:theme="@style/AppThemeNoBar"/>
         <activity
             android:name=".dashboard.WaterListActivity"
-            android:label="Water List" />
+            android:label="Water List"
+            android:theme="@style/AppThemeNoBar"/>
         <activity
             android:name=".dashboard.EnergyListActivity"
-            android:label="Energy List" />
+            android:label="Energy List"
+            android:theme="@style/AppThemeNoBar"/>
         <activity
             android:name=".dashboard.CoolingListActivity"
-            android:label="Cooling List" />
+            android:label="Cooling List"
+            android:theme="@style/AppThemeNoBar"/>
         <activity android:name=".dashboard.details.ItemDetailActivity"
             android:theme="@style/AppThemeNoBar"></activity>
     </application>

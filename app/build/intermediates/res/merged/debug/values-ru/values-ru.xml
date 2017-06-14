@@ -19,6 +19,20 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="changelog">Список изменений</string>
+    <string name="donate">Поддержать</string>
+    <string name="error">Ошибка</string>
+    <string name="feedback_app">Связь со мной</string>
+    <string name="help">Помощь</string>
+    <string name="introduce_app">Интродукция к приложению</string>
+    <string name="more_apps">Больше моих приложений</string>
+    <string name="privacy">Политика конфиденциальности</string>
+    <string name="rate_five_stars">Оцените приложение</string>
+    <string name="remove_ads">Убрать рекламу</string>
     <string msgid="146198913615257606" name="search_menu_title">"Поиск"</string>
+    <string name="share_app">Поделиться этим приложением</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="update_app">Обновить приложение</string>
+    <string name="version">Версия %s</string>
+    <string name="website">Веб-сайт</string>
 </resources>

@@ -52,6 +52,10 @@
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/ic_settings_white_48dp.png"
     },
     {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/social_media_divider.xml",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/drawable/social_media_divider.xml"
+    },
+    {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/navigation_empty_icon.xml"
     },
@@ -200,6 +204,10 @@
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/sunset.jpeg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/sunset.jpeg"
+    },
+    {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ratingbar_indicator_material.xml"
     },
@@ -214,6 +222,10 @@
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/me.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/me.png"
     },
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/sun.png",

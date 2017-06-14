@@ -7,7 +7,6 @@ import android.support.v4.util.Pair;
 import android.support.v7.view.ActionMode;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -18,24 +17,21 @@ public class ListRecyclerItemViewHolder extends RecyclerView.ViewHolder {
     private final TextView mItemTextView;
     private final TextView mItemTextViewTitle;
     private final ImageView mImage;
-    private final Button mReadMore;
     ActionMode mActionMode;
     Context mCTX;
     String mTitle = null;
 
-    public ListRecyclerItemViewHolder(final View parent, TextView itemTextView, TextView itemTextViewTitle, ImageView image, Button readMore) {
+    public ListRecyclerItemViewHolder(final View parent, TextView itemTextView, TextView itemTextViewTitle, ImageView image) {
         super(parent);
         mItemTextView = itemTextView;
         mItemTextViewTitle = itemTextViewTitle;
         mImage = image;
-        mReadMore = readMore;
     }
     public static ListRecyclerItemViewHolder newInstance(View parent) {
         TextView itemTextView = (TextView) parent.findViewById(R.id.itemTextView);
         TextView itemTextViewTitle = (TextView) parent.findViewById(R.id.textView);
         ImageView image = (ImageView) parent.findViewById(R.id.imageViewClickable);
-        Button reader = (Button) parent.findViewById(R.id.button2);
-        return new ListRecyclerItemViewHolder(parent, itemTextView, itemTextViewTitle, image, reader);
+        return new ListRecyclerItemViewHolder(parent, itemTextView, itemTextViewTitle, image);
     }
 
     private void clickerListener(View v, Context ctx, String header) {
@@ -58,13 +54,6 @@ public class ListRecyclerItemViewHolder extends RecyclerView.ViewHolder {
         mCTX = ctx;
         mTitle = text;
         mItemTextView.setText(text);
-        mReadMore.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Snackbar.make(v, text, Snackbar.LENGTH_LONG)
-                        .setAction(text, null).show();
-            }
-        });
         mImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

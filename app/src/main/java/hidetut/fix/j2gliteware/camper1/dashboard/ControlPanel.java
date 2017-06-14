@@ -1,17 +1,26 @@
 package hidetut.fix.j2gliteware.camper1.dashboard;
 
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.NotificationCompat;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import hidetut.fix.j2gliteware.camper1.About;
+import hidetut.fix.j2gliteware.camper1.MainActivity;
 import hidetut.fix.j2gliteware.camper1.R;
 import hidetut.fix.j2gliteware.camper1.adapters.GridRecyclerAdapter;
 import hidetut.fix.j2gliteware.camper1.bluetooth.DeviceSearchActivity;
@@ -20,6 +29,8 @@ public class ControlPanel extends AppCompatActivity {
 
     String address = null;
 
+    FloatingActionButton btn;
+
     String[] topics = new String[] {
             "Temperature", "Lighting","Soil", "Gas", "Sound", "Time", "Water", "Energy", "Cooling" };
 
@@ -27,6 +38,9 @@ public class ControlPanel extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_control_panel);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -40,6 +54,20 @@ public class ControlPanel extends AppCompatActivity {
         GridRecyclerAdapter recyclerAdapter = new GridRecyclerAdapter(this, createItemList());
         recyclerView.setAdapter(recyclerAdapter);
 
+        btn = (FloatingActionButton)findViewById(R.id.floater);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(ControlPanel.this);
+                alertDialogBuilder.setMessage("Select a Category to Control Tent VIA Bluetooth.");
+                alertDialogBuilder.setPositiveButton("OK", null);
+                AlertDialog alertDialog = alertDialogBuilder.create();
+                alertDialog.show();
+            }
+        });
+
+        notificationCreate();
+
     }
 
     private List<String> createItemList() {
@@ -48,6 +76,23 @@ public class ControlPanel extends AppCompatActivity {
             list.add(topics[i]);
         }
         return list;
+    }
+
+    private void notificationCreate() {
+        NotificationCompat.Builder builder =
+                (android.support.v7.app.NotificationCompat.Builder) new NotificationCompat.Builder(this)
+                        .setSmallIcon(R.drawable.tent)
+                        .setContentTitle("Connection Accepted")
+                        .setContentText("Bluetooth Device Connected");
+
+        Intent notificationIntent = new Intent(this, MainActivity.class);
+        PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT);
+        builder.setContentIntent(contentIntent);
+
+        // Add as notification
+        NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        manager.notify(0, builder.build());
     }
 
     @Override

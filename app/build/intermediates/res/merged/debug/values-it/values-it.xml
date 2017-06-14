@@ -19,6 +19,21 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="changelog">ChangeLog</string>
+    <string name="donate">Dona</string>
+    <string name="error">Errore</string>
+    <string name="feedback_app">Fornisci feedback</string>
+    <string name="google_play_games">Play Giochi</string>
+    <string name="help">Aiuto</string>
+    <string name="introduce_app">Introduzione all\'app</string>
+    <string name="more_apps">Altre mie app</string>
+    <string name="privacy">Politica sulla riservatezza</string>
+    <string name="rate_five_stars">Valuta questa app con 5 stelle</string>
+    <string name="remove_ads">Rimuovi pubblicità</string>
     <string msgid="146198913615257606" name="search_menu_title">"Ricerca"</string>
+    <string name="share_app">Condividi app</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="update_app">Aggiorna l\'app</string>
+    <string name="version">Versione %s</string>
+    <string name="website">Sito Web</string>
 </resources>

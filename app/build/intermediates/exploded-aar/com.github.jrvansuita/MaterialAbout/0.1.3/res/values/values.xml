@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="stroke">#b4b4b4</color>
+    <dimen name="app_icon_size">90dp</dimen>
+    <dimen name="card_elevation">3dp</dimen>
+    <dimen name="card_radius">3dp</dimen>
+    <dimen name="icon_size">25dp</dimen>
+    <dimen name="profile_picture_border">3dp</dimen>
+    <dimen name="profile_picture_size">100dp</dimen>
+    <dimen name="social_media_vertical_padding">10dp</dimen>
+    <string name="android">Android</string>
+    <string name="bitbucket">Bitbucket</string>
+    <string name="changelog">ChangeLog</string>
+    <string name="donate">Donate</string>
+    <string name="dribbble">Dribbble</string>
+    <string name="email">Email</string>
+    <string name="error">Error</string>
+    <string name="facebook">Facebook</string>
+    <string name="feedback_app">Give me a feedback</string>
+    <string name="github">GitHub</string>
+    <string name="google">Google</string>
+    <string name="google_play_games">Play Games</string>
+    <string name="google_play_store">Play Store</string>
+    <string name="google_plus">Google +</string>
+    <string name="help">Help</string>
+    <string name="id_facebook_app">com.facebook.katana</string>
+    <string name="id_google_plus_app">com.google.android.apps.plus</string>
+    <string name="id_instagram_app">com.instagram.android</string>
+    <string name="id_linkedin_app">com.linkedin.android</string>
+    <string name="id_skype_app">com.skype.raider</string>
+    <string name="id_twitter_app">com.twitter.android</string>
+    <string name="instagram">Instagram</string>
+    <string name="introduce_app">Introduce the app</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="more_apps">More apps from me</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="rate_five_stars">Rate this app 5 stars</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="share_app">Share this app</string>
+    <string name="skype">Skype</string>
+    <string name="twitter">Twitter</string>
+    <string name="update_app">Update this app</string>
+    <string name="uri_add_contact">tell:%s</string>
+    <string name="uri_facebook_app">fb://page/%s</string>
+    <string name="uri_google_plus_app">https://plus.google.com/%s</string>
+    <string name="uri_instagram_app">http://instagram.com/_u/%s</string>
+    <string name="uri_linkedin_app">linkedin://profile/%s</string>
+    <string name="uri_play_store_app">market://details?id=%s</string>
+    <string name="uri_play_store_app_website">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="uri_play_store_apps_list">market://search?q=pub:%s</string>
+    <string name="uri_skype_app">skype:%s</string>
+    <string name="uri_twitter_app">twitter://user?user_id=%s</string>
+    <string name="url_bitbucket">https://bitbucket.org/%s</string>
+    <string name="url_facebook_website">https://www.facebook.com/%s</string>
+    <string name="url_github">https://github.com/%s</string>
+    <string name="url_google_play_store_developer_page">https://play.google.com/store/apps/dev?id=%s</string>
+    <string name="url_google_plus_website">https://plus.google.com/%s</string>
+    <string name="url_instagram_website">http://instagram.com/%s</string>
+    <string name="url_linkedin_website">https://www.linkedin.com/in/%s</string>
+    <string name="url_twitter_website">https://twitter.com/%s</string>
+    <string name="url_youtube_website">https://www.youtube.com/user/%s</string>
+    <string name="version">Version %s</string>
+    <string name="website">Website</string>
+    <string name="whastapp">Whatsapp</string>
+    <string name="youtube">Youtube</string>
+    <style name="Brief" parent="@style/TextLabel">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+    <style name="Card">
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardMaxElevation">@dimen/card_elevation</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="Cover">
+        <item name="android:layout_height">@dimen/profile_picture_size</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="Name" parent="@style/TextLabel">
+        <item name="android:maxLines">2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Social" parent="@style/TextLabel">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+    <style name="SubTitle" parent="@style/TextLabel">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextLabel">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+</resources>

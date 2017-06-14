@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="hidetut.fix.j2gliteware.camper1"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.2" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -10,6 +10,7 @@
 
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <meta-data
         android:name="android.support.VERSION"
@@ -17,7 +18,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/tent"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
@@ -41,40 +42,51 @@
             android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.ControlPanel"
-            android:label="Dashboard" />
+            android:label="Dashboard"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.About"
-            android:label="About The Developer" />
+            android:label="About The Developer"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.bluetooth.DeviceSearchActivity"
             android:label="Local Devices" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.TemperatureListActivity"
-            android:label="Temperature List" />
+            android:label="Temperature List"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.LightingListActivity"
-            android:label="Lighting List" />
+            android:label="Lighting List"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.SoilListActivity"
-            android:label="Soil List" />
+            android:label="Soil List"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.GasListActivity"
-            android:label="Gas List" />
+            android:label="Gas List"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.SoundListActivity"
-            android:label="Sound List" />
+            android:label="Sound List"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.TimeListActivity"
-            android:label="Time List" />
+            android:label="Time List"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.WaterListActivity"
-            android:label="Water List" />
+            android:label="Water List"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.EnergyListActivity"
-            android:label="Energy List" />
+            android:label="Energy List"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.CoolingListActivity"
-            android:label="Cooling List" />
+            android:label="Cooling List"
+            android:theme="@style/AppThemeNoBar" />
         <activity
             android:name="hidetut.fix.j2gliteware.camper1.dashboard.details.ItemDetailActivity"
             android:theme="@style/AppThemeNoBar" />

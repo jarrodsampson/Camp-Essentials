@@ -74,5 +74,9 @@
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/anim/down_from_top.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/anim/down_from_top.xml"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/anim/expand_in.xml",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/anim/expand_in.xml"
     }
 ]

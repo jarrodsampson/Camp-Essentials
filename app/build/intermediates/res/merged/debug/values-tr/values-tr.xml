@@ -19,6 +19,21 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Şununla paylaş"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s ile paylaş"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="changelog">Versiyon notları</string>
+    <string name="donate">Bağış yap</string>
+    <string name="email">E-posta</string>
+    <string name="error">Hata</string>
+    <string name="feedback_app">İstek, öneri gönder</string>
+    <string name="help">Yardım</string>
+    <string name="introduce_app">Uygulamayı tanıt</string>
+    <string name="more_apps">Diğer uygulamalarım</string>
+    <string name="privacy">Gizlilik Politikası</string>
+    <string name="rate_five_stars">Bu uygulamaya 5 yıldız ver</string>
+    <string name="remove_ads">Reklamları kaldır</string>
     <string msgid="146198913615257606" name="search_menu_title">"Ara"</string>
+    <string name="share_app">Uygulamayı paylaş</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="update_app">Uygulamayı güncelle</string>
+    <string name="version">Versiyon %s</string>
+    <string name="website">Website</string>
 </resources>

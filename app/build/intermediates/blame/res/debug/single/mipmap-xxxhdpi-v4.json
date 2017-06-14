@@ -1,6 +1,114 @@
 [
     {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/update.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/update.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/privacy.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/privacy.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/google_play_games.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/google_play_games.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/help.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/help.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/email.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/email.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/bitbucket.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/bitbucket.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/whatsapp.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/whatsapp.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/google_play_store.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/google_play_store.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/star.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/star.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/youtube.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/youtube.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ads.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/ads.png"
+    },
+    {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/skype.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/skype.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/intrduce.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/intrduce.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/share.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/share.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/twitter.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/twitter.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/google.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/google.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/donate.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/donate.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/android.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/android.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/google_plus.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/google_plus.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/dribbble.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/dribbble.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/github.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/github.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/facebook.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/facebook.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/feedback.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/feedback.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/website.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/website.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/linkedin.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/linkedin.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/instagram.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/instagram.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/changelog.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-xxxhdpi-v4/changelog.png"
     }
 ]

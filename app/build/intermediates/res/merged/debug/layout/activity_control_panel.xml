@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:background="@drawable/bg1"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     tools:context=".dashboard.ControlPanel">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerViewGrid"
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:numColumns="2"
-        android:clipToPadding="false"/>
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
 
-</RelativeLayout>
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2"
+            android:clipToPadding="false"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_dialog_info"
+        app:layout_anchor="@+id/recyclerViewGrid"
+        app:layout_anchorGravity="bottom|right|end"
+        app:layout_behavior="hidetut.fix.j2gliteware.camper1.helpers.FAB_Hide_on_Scroll" />
+
+</android.support.design.widget.CoordinatorLayout>
