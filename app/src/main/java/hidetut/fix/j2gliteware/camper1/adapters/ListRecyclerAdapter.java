@@ -17,11 +17,13 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
     private List<String> mItemList;
     private Context mctx;
     private int lastPosition = -1;
+    private Integer[] mImages;
 
-    public ListRecyclerAdapter(Context ctx, List<String> itemList) {
+    public ListRecyclerAdapter(Context ctx, List<String> itemList, Integer[] imageArray) {
 
         mItemList = itemList;
         mctx = ctx;
+        mImages = imageArray;
     }
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -33,7 +35,7 @@ public class ListRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
         ListRecyclerItemViewHolder holder = (ListRecyclerItemViewHolder) viewHolder;
         String itemText = mItemList.get(position);
         holder.setItemText(itemText, mctx);
-        holder.setImage(mctx, position);
+        holder.setImage(mctx, position, mImages);
 
         Animation animation = AnimationUtils.loadAnimation(mctx,
                 (position > lastPosition) ? R.anim.up_from_bottom

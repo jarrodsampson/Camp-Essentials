@@ -31,7 +31,7 @@ public class TimeListActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         //recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
-        ListRecyclerAdapter recyclerAdapter = new ListRecyclerAdapter(this, createItemList());
+        ListRecyclerAdapter recyclerAdapter = new ListRecyclerAdapter(this, createItemList(), imageArray);
         recyclerView.setAdapter(recyclerAdapter);
     }
 
@@ -42,6 +42,11 @@ public class TimeListActivity extends AppCompatActivity {
         }
         return list;
     }
+
+    // references to our images
+    public Integer[] imageArray = {
+            R.drawable.time1
+    };
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

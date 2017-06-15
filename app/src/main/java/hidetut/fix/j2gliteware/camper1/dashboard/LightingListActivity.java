@@ -31,7 +31,7 @@ public class LightingListActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         //recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
-        ListRecyclerAdapter recyclerAdapter = new ListRecyclerAdapter(this, createItemList());
+        ListRecyclerAdapter recyclerAdapter = new ListRecyclerAdapter(this, createItemList(), imageArray);
         recyclerView.setAdapter(recyclerAdapter);
     }
 
@@ -42,6 +42,12 @@ public class LightingListActivity extends AppCompatActivity {
         }
         return list;
     }
+
+    // references to our images
+    public Integer[] imageArray = {
+            R.drawable.striplights,
+            R.drawable.lights2
+    };
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

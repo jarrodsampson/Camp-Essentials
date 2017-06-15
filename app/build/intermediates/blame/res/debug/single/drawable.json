@@ -32,12 +32,20 @@
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ratingbar_material.xml"
     },
     {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/batteries.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/batteries.jpg"
+    },
+    {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/tent.png",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/tent.png"
     },
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/humidfier.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/humidfier.jpg"
     },
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
@@ -64,6 +72,10 @@
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_clear_material.xml"
     },
     {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/buzzer1.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/buzzer1.png"
+    },
+    {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/flame.png",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/flame.png"
     },
@@ -74,6 +86,10 @@
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/soil.png",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/soil.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/water2.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/water2.jpg"
     },
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
@@ -100,8 +116,16 @@
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/striplights.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/striplights.jpg"
+    },
+    {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/fan2.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/fan2.jpg"
     },
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
@@ -110,6 +134,10 @@
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/solar1.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/solar1.jpg"
     },
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
@@ -144,6 +172,10 @@
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/bg1.jpg"
     },
     {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/soilbg.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/soilbg.jpg"
+    },
+    {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_textfield_search_material.xml"
     },
@@ -154,6 +186,10 @@
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/gas2.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/gas2.jpg"
     },
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
@@ -208,6 +244,14 @@
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/sunset.jpeg"
     },
     {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/lights2.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/lights2.jpg"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/time1.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/time1.jpg"
+    },
+    {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ratingbar_indicator_material.xml"
     },
@@ -234,6 +278,10 @@
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/gas1.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/src/main/res/drawable/gas1.jpg"
     },
     {
         "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",

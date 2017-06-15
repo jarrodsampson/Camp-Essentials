@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/mipmap-nodpi-v4/profile_picture.png",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-nodpi-v4/profile_picture.png"
+    },
+    {
+        "merged": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/res/merged/release/mipmap-nodpi-v4/profile_cover.jpg",
+        "source": "/Users/jarrodsampson/AndroidStudioProjects/Camper1/app/build/intermediates/exploded-aar/com.github.jrvansuita/MaterialAbout/0.1.6/res/mipmap-nodpi-v4/profile_cover.jpg"
+    }
+]

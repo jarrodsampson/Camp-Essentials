@@ -30,7 +30,7 @@ public class TemperatureListActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         //recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
-        ListRecyclerAdapter recyclerAdapter = new ListRecyclerAdapter(this, createItemList());
+        ListRecyclerAdapter recyclerAdapter = new ListRecyclerAdapter(this, createItemList(), imageArray);
         recyclerView.setAdapter(recyclerAdapter);
     }
 
@@ -41,6 +41,11 @@ public class TemperatureListActivity extends AppCompatActivity {
         }
         return list;
     }
+
+    // references to our images
+    public Integer[] imageArray = {
+            R.drawable.humidfier
+    };
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

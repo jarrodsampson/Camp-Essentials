@@ -6,7 +6,9 @@ import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import hidetut.fix.j2gliteware.camper1.R;
 
@@ -24,6 +26,26 @@ public class ItemDetailActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         ImageView imageView = (ImageView)findViewById(R.id.htab_detail_header);
+        FrameLayout coolingLayout = (FrameLayout)findViewById(R.id.coolingLayout);
+        FrameLayout energyLayout = (FrameLayout)findViewById(R.id.energyLayout);
+        FrameLayout gasLayout = (FrameLayout)findViewById(R.id.gasLayout);
+        FrameLayout lightingLayout = (FrameLayout)findViewById(R.id.lightingLayout);
+        FrameLayout soilLayout = (FrameLayout)findViewById(R.id.soilLayout);
+        FrameLayout soundLayout = (FrameLayout)findViewById(R.id.soundLayout);
+        FrameLayout tempLayout = (FrameLayout)findViewById(R.id.tempLayout);
+        FrameLayout timeLayout = (FrameLayout)findViewById(R.id.timeLayout);
+        FrameLayout waterLayout = (FrameLayout)findViewById(R.id.waterLayout);
+
+        coolingLayout.setVisibility(LinearLayout.GONE);
+        energyLayout.setVisibility(LinearLayout.GONE);
+        gasLayout.setVisibility(LinearLayout.GONE);
+        lightingLayout.setVisibility(LinearLayout.GONE);
+        soilLayout.setVisibility(LinearLayout.GONE);
+        soundLayout.setVisibility(LinearLayout.GONE);
+        tempLayout.setVisibility(LinearLayout.GONE);
+        timeLayout.setVisibility(LinearLayout.GONE);
+        waterLayout.setVisibility(LinearLayout.GONE);
+
 
         Intent i = getIntent();
         String title = i.getStringExtra("Title");
@@ -32,6 +54,42 @@ public class ItemDetailActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(title);
+
+        switch(title) {
+            case "Fan":
+                coolingLayout.setVisibility(LinearLayout.VISIBLE);
+                return;
+            case "Buzzer Alarm":
+                soundLayout.setVisibility(LinearLayout.VISIBLE);
+                return;
+            case "Solar|Battery":
+                energyLayout.setVisibility(LinearLayout.VISIBLE);
+                return;
+            case "Liquidizer":
+                waterLayout.setVisibility(LinearLayout.VISIBLE);
+                return;
+            case "RTC Clock":
+                timeLayout.setVisibility(LinearLayout.VISIBLE);
+                return;
+            case "Methane|Carbon":
+                gasLayout.setVisibility(LinearLayout.VISIBLE);
+                return;
+            case "Soil Measure":
+                soilLayout.setVisibility(LinearLayout.VISIBLE);
+                return;
+            case "Humidifier Sensor":
+                tempLayout.setVisibility(LinearLayout.VISIBLE);
+                return;
+            case "Strip Lights":
+                lightingLayout.setVisibility(LinearLayout.VISIBLE);
+                return;
+            case "Piranha Lights":
+                lightingLayout.setVisibility(LinearLayout.VISIBLE);
+                return;
+            default:
+        }
+
+
 
     }
 

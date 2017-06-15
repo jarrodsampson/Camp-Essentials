@@ -45,8 +45,8 @@ public class ListRecyclerItemViewHolder extends RecyclerView.ViewHolder {
         ctx.startActivity(i);
     }
 
-    public void setImage(final Context ctx, final int position) {
-        mImage.setImageResource(mThumbIds[position]);
+    public void setImage(final Context ctx, final int position, final Integer[] images) {
+        mImage.setImageResource(images[position]);
     }
 
     public void setItemText(final String text, final Context ctx) {

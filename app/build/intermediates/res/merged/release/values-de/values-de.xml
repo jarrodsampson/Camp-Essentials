@@ -19,6 +19,20 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="changelog">Änderungsprotokoll</string>
+    <string name="donate">Spenden</string>
+    <string name="error">Fehler</string>
+    <string name="feedback_app">Gib mir Feedback</string>
+    <string name="google_play_games">Play Spiele</string>
+    <string name="help">Hilfe</string>
+    <string name="introduce_app">Einführung in die App</string>
+    <string name="more_apps">Mehr Apps von mir</string>
+    <string name="privacy">Datenschutz-Bestimmungen</string>
+    <string name="rate_five_stars">Bewerte die App mit 5 Sternen</string>
+    <string name="remove_ads">Werbung entfernen</string>
     <string msgid="146198913615257606" name="search_menu_title">"Suchen"</string>
+    <string name="share_app">Teile die App</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="update_app">Aktualisiere die App</string>
+    <string name="website">Webseite</string>
 </resources>
